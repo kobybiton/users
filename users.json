@@ -1,0 +1,16 @@
+[
+  {
+    "email": "koby@test.test",
+    "password": "test123",
+    "birthDate": "09/03/1985",
+    "address": "See Village",
+    "city": "Givat Olga"
+  },
+  {
+    "email": "avi@test.test",
+    "password": "xxx123",
+    "birthDate": "05/04/1988",
+    "address": "sheshet",
+    "city": "haiamim"
+  }
+]
