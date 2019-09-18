@@ -12,7 +12,7 @@ function getUserByEmail(email) {
     return getUsers().find(user => user.email === email);
 }
 
-module.export = {
+module.exports = {
     getUsers,
     getUserByEmail,
     getEmail
