@@ -14,8 +14,16 @@ function getUserByEmail(email) {
 
 function deleteUserByEmail(email) {
     let users = getUsers();
-    users.filter(user => user.email != email);
     users = users.filter(function(user) {
+        return user.email !== email;
+    });
+    fs.writeFileSync('./users.json', JSON.stringify(users));
+    return email;
+}
+
+function updateUserByEmail(email) {
+    let users = getUsers();
+    users = users.map(function(user) {
         return user.email !== email;
     });
     fs.writeFileSync('./users.json', JSON.stringify(users));
@@ -26,5 +34,6 @@ module.exports = {
     getUsers,
     getUserByEmail,
     getEmail,
-    deleteUserByEmail
+    deleteUserByEmail,
+    updateUserByEmail
 }

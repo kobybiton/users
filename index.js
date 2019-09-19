@@ -1,5 +1,5 @@
 const {writeFileSync} = require('fs');
-const {getUsers, getUserByEmail, getEmail, deleteUserByEmail} = require('./users');
+const {getUsers, getUserByEmail, getEmail, deleteUserByEmail, updateUserByEmail} = require('./users');
 const {setPunch} = require('./punch');
 
 function setUser(user) {
@@ -45,6 +45,15 @@ if(action === 'get') {
 
     if(userEmail) {
         console.log(`user with Email ${userEmail} successfuly deleted!`)
+    } else {
+        console.log(`ERROR: User with email "${email}" not found`);
+    }
+} else if(action === 'update') {
+    const email = getEmail();
+    const userEmail = updateUserByEmail(email);
+
+    if(userEmail) {
+        console.log(`user with Email ${userEmail} successfuly updated!`)
     } else {
         console.log(`ERROR: User with email "${email}" not found`);
     }
