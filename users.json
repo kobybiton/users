@@ -10,14 +10,14 @@
         "email": "avi@test.test",
         "password": "xxx123",
         "birthDate": "05/04/1988",
-        "address": "sheshet",
-        "city": "haiamim"
+        "address": "sheshet hayamim",
+        "city": "hadera"
     },
     {
         "email": "test@test.test",
         "password": "textxxx123",
         "birthDate": "06/03/1988",
         "address": "nizanim",
-        "city": "6"
+        "city": "raanana"
     }
 ]

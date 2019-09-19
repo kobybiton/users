@@ -1,5 +1,16 @@
 [
-  {
-
-  }
+    {
+        "type": "check-in",
+        "created": "2019-09-18T17:18:29.795Z"
+    },
+    {
+        "email": "check-out",
+        "type": "check-in",
+        "created": "2019-09-18T17:18:55.800Z"
+    },
+    {
+        "email": "koby@test.test",
+        "type": "check-out",
+        "created": "2019-09-18T17:19:30.873Z"
+    }
 ]
