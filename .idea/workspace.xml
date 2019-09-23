@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <updated>1568557252641</updated>
       <workItem from="1568557253966" duration="6861000" />
       <workItem from="1568567833155" duration="3802000" />
-      <workItem from="1568826008314" duration="12084000" />
+      <workItem from="1568826008314" duration="18606000" />
     </task>
     <servers />
   </component>

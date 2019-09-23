@@ -15,9 +15,9 @@
     },
     {
         "email": "test@test.test",
-        "password": "textxxx123",
-        "birthDate": "06/03/1988",
-        "address": "nizanim",
-        "city": "raanana"
+        "password": "aaa123",
+        "birthDate": "06/09/1944",
+        "address": "habarzel",
+        "city": "tel"
     }
 ]

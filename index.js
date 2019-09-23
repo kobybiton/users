@@ -50,13 +50,7 @@ if(action === 'get') {
     }
 } else if(action === 'update') {
     const email = getEmail();
-    const userEmail = updateUserByEmail(email);
-
-    if(userEmail) {
-        console.log(`user with Email ${userEmail} successfuly updated!`)
-    } else {
-        console.log(`ERROR: User with email "${email}" not found`);
-    }
+    updateUserByEmail(email);
 }
 
 /* homework
